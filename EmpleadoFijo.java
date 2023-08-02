@@ -11,7 +11,7 @@ public class EmpleadoFijo extends Empleado {
     }
 
     public void imprimirDetalles() {
-        
+         super.imprimirDetalles();
         System.out.println("bonoAnual: " + bonoAnual);
     }
 
