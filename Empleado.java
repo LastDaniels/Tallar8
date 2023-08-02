@@ -36,6 +36,15 @@ public class Empleado {
 
     //getters&setters
 
+	// Método ImprimirDetalles se pasa a esta clase como parte de la solucion Pull Up Method.
+public void imprimirDetalles() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Salario: " + salarioBase);
+        System.out.println("Horas trabajadas: " + horasTrabajadas);
+        System.out.println("Departamento: " + departamento);
+        Sytem.out.println("Genero: " + genero);
+    }
+	
 	
     //Se requiere crear una clase abstracta llamada departamento y las clases hijas (los distintos tipos de departamentos) implementaran, esto para respetar el OCP 
     
