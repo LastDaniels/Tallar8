@@ -8,6 +8,7 @@ public class EmpleadoPorHoras extends Empleado {
         this.tarifaHora=tarifaHora;
     }
 
+
     public void imprimirDetalles() {
        super.imprimirDetalles();
     }
